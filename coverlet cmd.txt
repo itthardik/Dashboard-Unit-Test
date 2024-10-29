@@ -1,0 +1,8 @@
+﻿reportgenerator -reports:./coverage/coverage.xml -targetdir:./coverage/report
+
+coverlet .\bin\Debug\net8.0\DashboardUnitTest.dll --target "dotnet" --targetargs "test --no-build" --format cobertura --exclude-by-file "**/Controllers/**" --exclude-by-file "**/Database/**" --exclude-by-file "**/DataContext/**" --exclude-by-file "**/Documentation/**" --exclude-by-file "**/Models/**" --exclude-by-file "**/Repository/**" --exclude-by-file "**/ServiceConfiguration/**" --exclude-by-file "**/Utility/**" --output ./coverage/coverage.xml --verbosity Detailed
+
+ref or out
+sao
+auth
+microsoft identity provider
